@@ -1,7 +1,7 @@
 # ColonyExplorer
 
 
-The purpose of ColonyExplorer program is finding colonies using DFS (Depth-first search) by finding neighbors of each cell containing '1' and labeling them.
+The purpose of the ColonyExplorer program is to find colonies using DFS (Depth-first search) by finding neighbours of each cell containing '1' and labelling them.
 
 First, the grid will be passed through ExploreColony() which will find the 1's inside the grid.
 Secondly, each time ExploreColony() finds a 1, it calls the method ExploreAndLabelColony() to explore its neighbors. 
